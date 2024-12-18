@@ -79,6 +79,9 @@ func main() {
 	case 17:
 		advent.Day17Part1(file)
 		advent.Day17Part2(file)
+	case 18:
+		advent.Day18Part1(file)
+		advent.Day18Part2(file)
 	default:
 		fmt.Println("Code not available")
 	}
